@@ -840,7 +840,7 @@ a.details-btn:hover {
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
   cursor: pointer;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .skill-item:hover {

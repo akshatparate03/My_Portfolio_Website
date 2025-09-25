@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="project-title">Project Details</title>
+    <link rel="Icon" href="/Assets/Portfolio_Image.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Projects/details.css">
+</head>
+
+<body data-theme="dark">
+    <div id="main">
+        <div class="container">
+            <!-- Navigation -->
+            <nav class="nav">
+                <a href="../index.html#projects" class="nav-back">
+                    <i class="ri-arrow-left-line"></i>
+                    Back
+                </a>
+                <span class="nav-separator">></span>
+                <span class="nav-item">Projects</span>
+                <span class="nav-separator">></span>
+                <span class="nav-current" id="nav-current">Loading...</span>
+            </nav>
+
+            <!-- Main Content -->
+            <div class="main-content">
+                <div class="content-left">
+                    <h1 id="project-name">Loading...</h1>
+                    <div class="title-underline"></div>
+
+                    <p class="description" id="project-description">Loading project description...</p>
+
+                    <!-- Stats -->
+                    <div class="stats">
+                        <div class="stat-card">
+                            <i class="ri-code-s-slash-line stat-icon"></i>
+                            <div class="stat-content">
+                                <div class="stat-number" id="tech-count">0</div>
+                                <div class="stat-label">Total Technologies</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="ri-stack-line stat-icon"></i>
+                            <div class="stat-content">
+                                <div class="stat-number" id="feature-count">0</div>
+                                <div class="stat-label">Main Features</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="buttons">
+                        <a id="live-demo" href="#" class="btn btn-primary" target="_blank">
+                            <i class="ri-external-link-line"></i>
+                            Live Demo
+                        </a>
+                        <a id="github-link" href="#" class="btn btn-secondary" target="_blank">
+                            <i class="ri-github-line"></i>
+                            Github
+                        </a>
+                    </div>
+
+                    <!-- Technologies -->
+                    <div class="technologies">
+                        <h3 class="section-title">
+                            <i class="ri-code-s-slash-line"></i>
+                            Technologies Used
+                        </h3>
+                        <div id="tech-list"></div>
+                    </div>
+                </div>
+
+                <div class="content-right">
+                    <div class="device-mockups">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <img id="mobile-view" src="" alt="Mobile_View">
+                            </div>
+                        </div>
+                        <div class="laptop-mockup">
+                            <div class="laptop-screen">
+                                <img id="laptop-view" src="" alt="Laptop_View">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Features -->
+            <div class="features">
+                <h3 class="features-title">
+                    <i class="ri-star-line"></i>
+                    Key Features
+                </h3>
+                <ul class="feature-list" id="feature-list">
+                    <li>Loading features...</li>
+                </ul>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                © 2025 Akshat Parate™. All Rights Reserved.
+            </footer>
+        </div>
+    </div>
+
+    <script src="/Projects/details.js"></script>
+
+    <script>
+        // Get ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectId = urlParams.get("id");
+
+        fetch("details.json")
+            .then(res => res.json())
+            .then(data => {
+                const project = data.projects.find(p => p.id === projectId);
+                if (!project) {
+                    document.getElementById("project-name").textContent = "Project Not Found!";
+                    return;
+                }
+
+                // Populate data
+                document.title = project.name;
+                document.getElementById("nav-current").textContent = project.name;
+                document.getElementById("project-name").textContent = project.name;
+                document.getElementById("project-description").textContent = project.description;
+                document.getElementById("tech-count").textContent = project.technologies.length;
+                document.getElementById("feature-count").textContent = project.features.length;
+
+                document.getElementById("live-demo").href = project.liveDemo;
+                document.getElementById("github-link").href = project.github;
+
+                // Tech list
+                const techList = document.getElementById("tech-list");
+                techList.innerHTML = "";
+                project.technologies.forEach(tech => {
+                    const div = document.createElement("div");
+                    div.className = "tech-tag";
+                    div.innerHTML = `<i class="ri-code-s-slash-line"></i> ${tech}`;
+                    techList.appendChild(div);
+                });
+
+                // Features
+                const featureList = document.getElementById("feature-list");
+                featureList.innerHTML = "";
+                project.features.forEach(f => {
+                    const li = document.createElement("li");
+                    li.className = "feature-item";
+                    li.innerHTML = `<div class="feature-bullet"></div><div>${f}</div>`;
+                    featureList.appendChild(li);
+                });
+
+                // Images
+                document.getElementById("mobile-view").src = project.images.mobile;
+                document.getElementById("laptop-view").src = project.images.laptop;
+            })
+            .catch(err => console.error("Error loading project:", err));
+    </script>
+
+</body>
+
+</html>

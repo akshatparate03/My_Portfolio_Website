@@ -1,0 +1,161 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "name": "Obys Agency Clone",
+      "description": "The “Obeys Agency” clone is a visually striking, responsive website built with HTML, CSS, and JavaScript, enhanced by Locomotive Scroll for smooth scrolling, SheryJS for unique animations, Three.js for 3D visuals, and GSAP with ScrollTrigger for dynamic scroll-based effects, delivering an immersive, interactive user experience.",
+      "technologies": ["HTML", "CSS", "JavaScript", "GSAP"],
+      "features": [
+        "Immersive Animations – Smooth parallax and interactive motion powered by GSAP, ScrollTrigger, and SheryJS.",
+        "3D Visuals – Engaging, real-time 3D elements created with Three.js for a modern, premium feel.",
+        "Smooth Scrolling Experience – Locomotive Scroll integration for fluid, touch-friendly navigation across all devices."
+      ],
+      "liveDemo": "https://obys-agency-new.netlify.app/",
+      "github": "https://github.com/akshatparate03/Obys_Agency_Clone.git",
+      "images": {
+        "mobile": "/Views/ObysAgency_Mobile_View.jpeg",
+        "laptop": "/Views/ObysAgency_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project2",
+      "name": "Portfolio Website",
+      "description": "This is a fully responsive personal portfolio website built using HTML, CSS, and JavaScript. It features a dark/light theme toggle, allowing users to switch based on preference. The site includes my resume (view and download option), a showcase of my projects with live demo and source code links, a section for certificates, a display of skills, and links to my LeetCode and GitHub profiles. A contact form is integrated, which sends messages directly to my Gmail inbox, enabling seamless communication.",
+      "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
+      "features": [
+        "Dark/Light Theme Toggle – Seamless switching between dark and light modes for better user experience.",
+        "Fully Responsive Design – Optimized for all devices including mobile, tablet, and desktop.",
+        "Interactive Resume & Projects Section – View/download resume, explore projects with demo and source code links."
+      ],
+      "liveDemo": "https://akshatparate.netlify.app/",
+      "github": "https://github.com/akshatparate03/My_Portfolio_Website.git",
+      "images": {
+        "mobile": "/Views/Portfolio_Mobile_View.jpeg",
+        "laptop": "/Views/Portfolio_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project3",
+      "name": "NextHit: Movies Hub",
+      "description": " NextHit is a modern and responsive movie downloading website built using HTML, CSS, and JavaScript for the frontend, with Google Apps Script powering backend automation. The platform displays movies through a dynamic grid, search functionality, and categorized sections like trending and genres. Apps Script fetches and updates movie data from Google Sheets, enabling easy management and automating download tracking and user feedback.",
+      "technologies": ["HTML", "CSS", "JavaScript", "AppScript"],
+      "features": [
+        "Dynamic Movie Listings: Interactive movie grid with search and category filters like Trending, New Releases, and Genres using HTML, CSS, and JavaScript.",
+        "Serverless Backend: Google Apps Script fetches and manages movie data from Google Sheets without needing a traditional server or database.",
+        "Download Automation: Provides high-quality download links and automates user feedback and download tracking through Apps Script integration."
+      ],
+      "liveDemo": "https://nexthit.netlify.app/",
+      "github": "https://github.com/akshatparate03/NextHit_Movies_Hub_Full_Stack_Website.git",
+      "images": {
+        "mobile": "/Views/NextHit_Mobile_View.jpeg",
+        "laptop": "/Views/NextHit_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project4",
+      "name": "Dribbble Clone",
+      "description": "Creating a Dribbble website clone using HTML and CSS involves replicating the visual structure and styling of the original Dribbble platform, focusing entirely on the frontend. This includes designing a responsive navigation bar with logo and menu links, a stylish hero section with a search bar and category filters, and a grid layout to showcase design shots with hover effects and interaction icons like likes and views. Using modern CSS techniques such as Flexbox, Grid, and media queries ensures the layout adapts to different screen sizes, closely mimicking the clean, professional look of Dribbble. This project helps improve UI design skills and deepens understanding of responsive web design using just HTML and CSS.",
+      "technologies": ["HTML", "CSS"],
+      "features": [
+        "Responsive Design: Fully adapts to different screen sizes using Flexbox, Grid, and media queries for a mobile-friendly layout.",
+        "Interactive UI Elements: Includes hover effects on design shots, navigation links, and interactive icons like likes and views.",
+        "Modern Grid Showcase: Clean grid layout to display design thumbnails, closely resembling Dribbble's shot-style presentation."
+      ],
+      "liveDemo": "https://dribbble-website.netlify.app/",
+      "github": "https://github.com/akshatparate03/Dribbble_Clone_Using_Html_Css.git",
+      "images": {
+        "mobile": "/Views/Dribbble_Mobile_View.jpeg",
+        "laptop": "/Views/Dribbble_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project5",
+      "name": "K72 Clone",
+      "description": "A bold, creativity-driven digital agency site from Montreal that builds brands from every angle. Its avant-garde style features smooth animations, bold typography, interactive hover effects, and expansive scroll-driven layouts that let the work shine.",
+      "technologies": ["HTML", "Tailwind CSS", "React Js", "GSAP"],
+      "features": [
+        "Immersive Portfolio Showcase – Bold, avant-garde design with storytelling visuals to present their creative work in an engaging way.",
+        "Award-Winning Design & Technology – Recognized for exceptional UX, creativity, and innovation using advanced web technologies like GSAP animations, Lottie, and smooth scrolling.",
+        "Strategic Agency Identity – Clearly communicates K72’s full-spectrum agency services (strategy, branding, advertising, content) along with their culture and values."
+      ],
+      "liveDemo": "https://k72-clone.netlify.app/",
+      "github": "https://github.com/akshatparate03/K72_Clone.git",
+      "images": {
+        "mobile": "/Views/K72_Mobile_View.jpeg",
+        "laptop": "/Views/K72_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project6",
+      "name": "Premier Clone",
+      "description": " Creating a Premier website clone using HTML and CSS involves replicating the visual structure and styling of the original Premier platform, focusing entirely on the frontend. This includes designing a responsive navigation bar with logo and menu links, a stylish hero section with a search bar and category filters, and a grid layout to showcase design shots with hover effects and interaction icons like likes and views. Using modern CSS techniques such as Flexbox, Grid, and media queries ensures the layout adapts to different screen sizes, closely mimicking the clean, professional look of Premier. This project helps improve UI design skills and deepens understanding of responsive web design using just HTML and CSS.",
+      "technologies": ["HTML", "CSS"],
+      "features": [
+        "Responsive Design: Fully adapts to different screen sizes using Flexbox, Grid, and media queries for a mobile-friendly layout.",
+        "Interactive UI Elements: Includes hover effects on design shots, navigation links, and interactive icons like likes and views.",
+        "Modern Grid Showcase: Clean grid layout to display design thumbnails, closely resembling Dribbble's shot-style presentation."
+      ],
+      "liveDemo": "https://premier-website.netlify.app/",
+      "github": "https://github.com/akshatparate03/Premier_Clone_Using_Html_Css.git",
+      "images": {
+        "mobile": "/Views/Premier_Mobile_View.jpeg",
+        "laptop": "/Views/Premier_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project7",
+      "name": "Admin Ecommerce Store",
+      "description": "A modern e-commerce website built with React, Vite, Tailwind CSS, and Toastify, featuring a sleek UI, fast performance, and real-time notifications. Includes a custom product management system where users can add, edit, and delete products, with a special product customization feature for a personalized shopping experience.",
+      "technologies": ["React Js", "Tailwind CSS", "APIs", "HTML"],
+      "features": [
+        "Custom Product Management System – Users can add, edit, and delete products seamlessly through an intuitive interface.",
+        "Product Customization Feature – Allows customers to personalize products for a unique shopping experience.",
+        "Real-Time Notifications – Instant updates and alerts using Toastify for actions like product changes or special offers."
+      ],
+      "liveDemo": "https://admin-ecommerce-store.netlify.app/",
+      "github": "https://github.com/akshatparate03/E-Commerse_Website.git",
+      "images": {
+        "mobile": "/Views/Ecommerce_Mobile_View.jpeg",
+        "laptop": "/Views/Ecommerce_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project8",
+      "name": "Advanced Calsi",
+      "description": "This is a modern, fully responsive calculator web application built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, division, and percentage calculation. The UI features a sleek dark theme with neumorphic button design and a real-time input display. Keyboard support is also included for improved accessibility. Internally, the calculator separates display formatting (with Indian number formatting) from actual evaluation logic, ensuring accurate and user-friendly interaction.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Responsive & Mobile-Friendly Design: Automatically adapts to all screen sizes with no horizontal scroll, perfect spacing, and touch-friendly buttons.",
+        "Functional Arithmetic Operations: Supports all basic operations (add, subtract, multiply, divide, percentage) with real-time evaluation and keyboard support.",
+        "Clean Indian Number Formatting: Displays numbers in Indian digit grouping style (e.g. 1,00,000) for better readability, especially for local users."
+      ],
+      "liveDemo": "https://advancedcalsi.netlify.app/",
+      "github": "https://github.com/akshatparate03/Calculator_Using_Frontend.git",
+      "images": {
+        "mobile": "/Views/Calsi_Mobile_View.jpeg",
+        "laptop": "/Views/Calsi_Laptop_View.png"
+      }
+    },
+
+    {
+      "id": "project9",
+      "name": "",
+      "description": "",
+      "technologies": ["", "", ""],
+      "features": ["", "", ""],
+      "liveDemo": "",
+      "github": "",
+      "images": {
+        "mobile": "",
+        "laptop": ""
+      }
+    }
+  ]
+}

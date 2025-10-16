@@ -146,15 +146,19 @@
 
     {
       "id": "project9",
-      "name": "",
-      "description": "",
-      "technologies": ["", "", ""],
-      "features": ["", "", ""],
-      "liveDemo": "",
-      "github": "",
+      "name": "ChatBot",
+      "description": "This Chatbot project is an intelligent and interactive web-based application developed using HTML, CSS, and JavaScript for the frontend and Python for the backend. It enables real-time human-like conversations through a simple and responsive user interface. The frontend handles user input and displays responses dynamically, while the Python backend processes messages, generates meaningful replies, and manages the overall conversation flow. This chatbot can be easily integrated into websites for customer support, FAQs, or general interaction. It is lightweight, customizable, and designed to enhance user engagement by providing instant automated assistance with a smooth and modern UI experience.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Python", "APIs"],
+      "features": [
+        "Real-Time Interaction – Users can chat instantly with the bot through a clean and responsive web interface built using HTML, CSS, and JavaScript.",
+        "Python-Powered Intelligence – The backend, developed in Python, processes user queries, generates relevant responses, and ensures smooth two-way communication.",
+        "Customizable and Easy Integration – The chatbot can be easily modified and embedded into any website to handle FAQs, customer queries, or general assistance."
+      ],
+      "liveDemo": "https://advancedchatbot.netlify.app/",
+      "github": "https://github.com/akshatparate03/ChatBot.git",
       "images": {
-        "mobile": "",
-        "laptop": ""
+        "mobile": "/Views/Chatbot_Mobile_View.jpg",
+        "laptop": "/Views/Chatbot_Laptop_View.png"
       }
     }
   ]

@@ -160,6 +160,24 @@
         "mobile": "/Views/Chatbot_Mobile_View.jpg",
         "laptop": "/Views/Chatbot_Laptop_View.png"
       }
+    },
+
+    {
+      "id": "project10",
+      "name": "Gmail Validator",
+      "description": "This project is a professional Gmail-only email verification web application built using HTML, CSS, and JavaScript. The interface is designed with a clean, modern, and responsive layout that adapts perfectly to all screen sizes — from large desktops to compact mobile devices. The application validates user input in real-time and ensures that only properly formatted Gmail addresses (ending with @gmail.com) are accepted. It performs detailed checks for common errors such as multiple '@' symbols, invalid characters, consecutive or trailing dots, missing parts, and spaces within the email. If the entered Gmail address passes all validation rules, a success message is displayed; otherwise, clear and user-friendly error messages guide the user to correct the input. This project demonstrates strong front-end design principles, precise JavaScript validation logic, and perfect responsiveness for a professional-grade web experience.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Advanced Gmail Validation – The system strictly validates emails to ensure they belong only to Gmail (@gmail.com) and follow all Gmail username rules such as no consecutive dots, no spaces, and only valid characters (letters, numbers, dots, underscores).",
+        "Real-Time Error Detection – As users enter their email, the website instantly checks for mistakes like multiple '@' symbols, missing text before or after '@', or invalid formatting, providing clear and easy-to-understand feedback messages.",
+        "Fully Responsive and Professional UI – Designed with a clean, modern layout using responsive CSS, the website automatically adjusts to fit all screen sizes — from large desktop monitors to smartphones — ensuring a seamless user experience everywhere."
+      ],
+      "liveDemo": "https://gmailvalidator.netlify.app/",
+      "github": "https://github.com/akshatparate03/Email_Validator.git",
+      "images": {
+        "mobile": "/Views/GmailValidator_Mobile_View.jpg",
+        "laptop": "/Views/GmailValidator_Laptop_View.png"
+      }
     }
   ]
 }

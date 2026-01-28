@@ -65,8 +65,8 @@ const roles = [
   "Open Source Contributor",
   "Creative Coder",
   "Artificial Intelligence Enthusiast",
-  "Data Science Explorer",
-  "DepOps Learner",
+  "Data Science Learner",
+  "Machine Learning Explorer",
 ];
 
 let roleIndex = 0;

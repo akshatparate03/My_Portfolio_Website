@@ -178,6 +178,23 @@
         "mobile": "/Views/GmailValidator_Mobile_View.jpg",
         "laptop": "/Views/GmailValidator_Laptop_View.png"
       }
+    },
+    {
+      "id": "project11",
+      "name": "EchoIntellect",
+      "description": "EchoIntellect is an advanced multi-model AI conversational platform built using FastAPI, Flask, and ReactJS, designed to deliver precise, real-time insights by comparing responses from multiple AI engines. The interface features a clean, modern, and fully responsive UI that works seamlessly across desktops, tablets, and mobile devices. Users can chat naturally while the system intelligently orchestrates four AI models—ChatGPT, Gemini, DeepSeek, and Perplexity—to generate parallel answers. It performs robust backend processing, handles error states gracefully, and ensures consistent performance across varied query types. Each message is analyzed, validated, and displayed with clarity, allowing users to compare tone, accuracy, and depth across models. With smooth UI transitions, optimized API handling, and refined architecture, this project showcases strong expertise in full-stack development, AI integration, and delivering a polished, production-grade web experience.",
+      "technologies": ["ReactJs", "TailwindCSS", "Python", "FastAPI"],
+      "features": [
+        "Multi-Model AI Comparison Engine – EchoIntellect intelligently connects with four powerful AI models (ChatGPT, Gemini, DeepSeek, Perplexity) and displays their responses side-by-side, enabling users to compare accuracy, creativity, and reasoning in a clean and organized interface.",
+        "Real-Time Query Processing & Error Handling – As users send a message, the backend instantly routes the query to all models, handles timeouts or API failures gracefully, and provides clear, user-friendly notifications for issues like invalid inputs, unreachable models, or slow network responses.",
+        "Fully Responsive and Modern Web UI – Built with a sleek ReactJS frontend, the platform delivers smooth interactions, animated transitions, and a fully responsive layout that adapts perfectly to desktops, tablets, and mobile screens for a polished, professional conversational experience."
+      ],
+      "liveDemo": "https://echointellect.netlify.app/",
+      "github": "https://github.com/akshatparate03/EchoIntellect",
+      "images": {
+        "mobile": "/Views/EchoIntellect_Mobile_View.jpg",
+        "laptop": "/Views/EchoIntellect_Laptop_View.png"
+      }
     }
   ]
 }
